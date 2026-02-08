@@ -1,4 +1,3 @@
-# The Secret Life of Walter Mitty
 <html>
 <div class="header">
     <h1>The Secret life of Walter Mitty</h1>
