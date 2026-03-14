@@ -1,3 +1,24 @@
 .blog-preview {
 
 }
+.new-baseball {
+  brand: rawlings;
+  year: 2025;
+  type: official;
+}
+
+.featured {
+  background-color: yellow;
+}
+
+.size10 {
+  size: 10;
+}
+
+.size11 {
+  size: 11;
+}
+
+.size12 {
+  size: 12;
+}
