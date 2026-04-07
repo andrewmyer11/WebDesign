@@ -1,7 +1,7 @@
 # Week Reflection – Flexbox & Grid
 
 ## Flexbox Froggy
-![Flexbox Froggy Screenshot](flexbox-froggy.png)
+![Flexbox Froggy Screenshot](flexbox froggy.png)
 
 ## Grid Garden
 ![Grid Garden Screenshot](grid-garden.png)
