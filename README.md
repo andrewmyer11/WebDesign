@@ -1,10 +1,10 @@
 # My CSS Practice
 
 ## Flexbox Froggy
-![flexbox froggy](flexboxfroggy.png)
+![flexbox froggy](flexbox froggy.png)
 
 ## Grid Garden
-![grid garden](gridgarden.png)
+![grid garden](grid garden.png)
 
 ## Reflection
 
