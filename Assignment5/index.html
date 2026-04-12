@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Baseball Card Component</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+
+  <!-- REQUIRED for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Baseball Hub</title>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap (REQUIRED) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+      <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Baseball Hub</span>
+    </div>
+  </nav>
 
-<h1>Baseball Highlights</h1>
+  <!-- MAIN CONTENT (REQUIRED) -->
+  <main>
+<section class="blog-preview">
+  <h2>Latest Blog Post</h2>
 
-<div class="card-container">
+  <article class="blog-card">
+    <h3>Top 5 MLB Moments</h3>
+    <p>This season has delivered incredible highlights from walk-offs to insane home runs.</p>
+    <a href="#">Read More</a>
+  </article>
+
+</section>
+<section class="cards">
+  <h2>Featured Players</h2>
+
+  <div class="card-container">
 
     <div class="card">
-        <img src="images/gameday.jpg" alt="Baseball stadium at night">
-        <h2>Game Day</h2>
-        <p>Feel the energy of a live baseball game.</p>
-        <button>Explore</button>
+      <h3>Mike Trout</h3>
+      <p>One of the best players ever.</p>
     </div>
 
     <div class="card">
-        <img src="images/training.jpg" alt="Baseball player pitching">
-        <h2>Training</h2>
-        <p>Practice makes perfect on the field.</p>
-        <button>Explore</button>
+      <h3>Shohei Ohtani</h3>
+      <p>Elite pitcher and hitter.</p>
     </div>
 
-    <div class="card">
-        <img src="images/championship.jpg" alt="Baseball on field">
-        <h2>Championship</h2>
-        <p>Where the best teams compete for glory.</p>
-        <button>Explore</button>
-    </div>
+  </div>
+</section>
+  </main>
 
-</div>
-
+  <footer>
+    <p>© 2026 Baseball Hub</p>
+  </footer>
 </body>
-</html>

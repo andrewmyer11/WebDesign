@@ -103,3 +103,15 @@ body {
   margin-right: 10px; /* Adds space between the icons */
   vertical-align: middle; /* Keeps icons visually aligned with any text nearby */
 }
+
+.blog-preview {
+  padding: 20px;
+}
+
+.blog-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  max-width: 400px;
+}
