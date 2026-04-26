@@ -1,134 +1,114 @@
 body {
-  background-color: yellow;
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
 }
 
-/* Navigation Bar */
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #ddd;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 5px 10px;
-}
-
-.nav a:hover {
-  background-color: #bbb;
-  border-radius: 5px;
-}
-
-/* Main Image */
-.main-image {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto 20px auto;
-  border-radius: 10px;
-}
-
-/* Blog Preview Section */
-.blog-preview {
-  background-color: transparent;
+/* NAVBAR (Bootstrap override improvement) */
+.navbar {
   padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 8px;
 }
 
-/* Featured Baseballs Container */
-.featured-container {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px;
-}
-
-/* Featured Baseballs Styling */
-.new-baseball {
-  background-color: yellow;
-  padding: 15px;
-  border: 1px solid #ccc;
+/* MAIN TITLE */
+h1 {
   text-align: center;
-  font-weight: bold;
-  border-radius: 5px;
-  flex: 1; /* Each box takes equal width */
-  margin: 0 5px;
+  margin-top: 30px;
+  font-size: 2.2rem;
 }
 
-.size10 { font-size: 14px; }
-.size11 { font-size: 16px; }
-.size12 { font-size: 18px; }
-
-/* Footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #d5d0dd;
-  padding: 20px 40px;
-  border-radius: 8px;
-}
-/* The main footer container */
-
-.footer {
-  display: flex; /* Places all footer sections (icons + lists) side by side in a row */
-  justify-content: space-between; /* Adds equal space between each section horizontally */
-  align-items: flex-start; /* Aligns all sections to the top of the footer */
-  background-color: #d5d0dd; /* Sets the footer’s background color */
-  padding: 30px 100px; /* Adds space inside the footer: 30px top/bottom, 100px left/right */
-  font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire footer */
-}
-
-.footer ul {
-  list-style: none; /* Removes the default bullets from list items */
-  padding: 0; /* Removes default padding inside the <ul> */
-  margin: 0; /* Removes default margin outside the <ul> */
-}
-
-.footer li {
-  margin-bottom: 6px; /* Adds a little space between each list item */
-  font-size: 14px; /* Makes the text slightly smaller for a neat footer look */
-}
-
-.social-icons img {
-  width: 22px; /* Sets consistent icon size */
-  margin-right: 10px; /* Adds space between the icons */
-  vertical-align: middle; /* Keeps icons visually aligned with any text nearby */
-}
-
+/* BLOG SECTION */
 .blog-preview {
+  max-width: 900px;
+  margin: 30px auto;
   padding: 20px;
 }
 
 .blog-card {
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: transparent;
-  max-width: 400px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
+/* FEATURED BOXES */
 .featured {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 .featured div {
-  background: transparent;
+  background: white;
   padding: 20px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
 }
-.flex-gallery {
-  display: flex;
-  gap: 10px;
+
+/* FEATURE CARDS (your clickable ones) */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.feature-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.features a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* CARDS SECTION */
+.cards {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #111;
+  color: white;
 }
