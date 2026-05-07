@@ -27,6 +27,10 @@ h2, h3, h4 {
 p, a {
   color: darkgreen;
 }
+
+label {
+  color: darkgreen
+}
 /* BLOG SECTION */
 .blog-preview {
   max-width: 900px;
