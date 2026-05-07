@@ -23,6 +23,10 @@ h1 {
 h2, h3, h4 {
   color: white !important;
 }
+
+p, a {
+  color: white;
+}
 /* BLOG SECTION */
 .blog-preview {
   max-width: 900px;
