@@ -20,6 +20,9 @@ h1 {
   color: whitesmoke !important;
 }
 
+h2, h3, h4 {
+  color: white !important;
+}
 /* BLOG SECTION */
 .blog-preview {
   max-width: 900px;
