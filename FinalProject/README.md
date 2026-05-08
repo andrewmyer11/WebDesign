@@ -61,3 +61,13 @@ My site plan for this website was to have a blog about baseball. Where people co
 - **Supporting Content (optional):**  Optional project descriptions
 - **Call-to-Action:**  “Contact me” or “Book a shoot”
 - **Footer:** Same as Home 
+
+## What’s something new you learned while building your site?  
+I would have to say something new I have learned while building my site is how to change the colors of the text and background on my website. For some reason I thought it was super cool to be able to do that!
+## How did you balance creativity with usability?
+I balanced creativity with usability by designing the site with a modern baseball-inspired style while still keeping the layout easy and simple to navigate. I used dark colors, strong headings, and organized sections to make the website visually intresting without making it confusing for users. The navigation bar helps visitors quickly find information. 
+## What are you most proud of in your final project?
+I am most proud of how my website turned out with the pictures on the main page. The colors within the website to me really pop and makes it feel like a true baseball blog. I choose green for the text as there is grass all over a baseball field and I thought it would look good with the background of my website. 
+## How do you see yourself using these skills later on?
+I see myself using these skills later on to make myself a photography website and make a website for my dads leather company as well as my buddy's detailing company! It will be put to great use!
+## Thank you for such a fun class! I truly enjoyed learning how to code and make different things in this class. Hope you have a great summer. 
